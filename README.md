@@ -494,8 +494,9 @@ Algoritma adalah langkah-langkah atau proses yang dilakukan secara logis (masuk 
     * Konsisten
     * Dan mudah dibaca org lain
   * Contohnya:
+    
      Menampilkan deret angka 1 - 10
-
+s
      deklarasi
 
      i ← 1
@@ -508,7 +509,7 @@ Algoritma adalah langkah-langkah atau proses yang dilakukan secara logis (masuk 
 
      i = i + 1
 
-     end`
+     end
 
 ---
 ## JAVASCRIPT
