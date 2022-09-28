@@ -560,6 +560,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
   
   <img src="./js/loopmanual.png"/>
 * __For Loop__
+  
   Instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan. FOR LOOP dapat digunakan jika kita tahu seberapa banyak nilai pasti untuk pengulangannya. For Loop Parameter:
   * __Inisialisasi__: Sebagai inisialisasi awal dari mana mulainya sebuah pengulangan. Kita memberikan nilai awal/default pada parameter ini
   * __Condition__: For loop akan terus berjalan selama kondisi ini terpenuhi. Selama kondisi bernilai TRUE.
@@ -568,6 +569,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
   <img src="./js/forloop.png"/>
 
 * __While Loop__
+  
   WHILE LOOP akan menjalankan instruksi pengulangan kondisi bernilai TRUE. WHILE LOOP dapat digunakan jika kita tidak mengetahui jumlah pasti pengulangan.
   <img src="./js/while.png"/>
 
@@ -575,6 +577,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
   <img src="./js/dowhile.png"/>
 
 * __Nested Loop__
+  
   Membuat looping di dalam looping.
   <img src="./js/nesteedloop.png"/>
  
