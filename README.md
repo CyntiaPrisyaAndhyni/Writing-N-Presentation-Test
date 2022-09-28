@@ -471,12 +471,12 @@ Algoritma adalah langkah-langkah atau proses yang dilakukan secara logis (masuk 
 
 * __Deskriptif__
   Penulisan algoritma dengan cara deskriptif seperti menulis tutorial (tata cara) dengan bahasa sehari-hari. Contohnya mengambil air minum:
-  1. Pergi ke dapur
-  2. Ambil gelas di rak
-  3. Pergi ke dispenser
-  4. Isi Gelas dengan air
-  5. Jika air sudah penuh
-  6. Air siap diminum
+   1. Pergi ke dapur
+   1. Ambil gelas di rak
+   2. Pergi ke dispenser
+   3. Isi Gelas dengan air
+   4. Jika air sudah penuh
+   5. Air siap diminum
 
 * __Flowchart__
   Flowchart atau diagram alir, penyajian algoritmanya lebih mudah dibaca karena memiliki tampilan visual. Flow chart menggunakan simbol bangun datar sebagai representasi dari proses yg dilakukan.
@@ -496,7 +496,7 @@ Algoritma adalah langkah-langkah atau proses yang dilakukan secara logis (masuk 
   * Contohnya:
     
      Menampilkan deret angka 1 - 10
-s
+
      deklarasi
 
      i ← 1
