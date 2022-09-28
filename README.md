@@ -540,20 +540,35 @@ Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang di
 Conditional merupakan statement percabangan yang menggambarkan suatu kondisi. 
 Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut. Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
  * __If Statement__
+  
   <img src="./js/ifstatement.png"/>
+
  * __If ... Else Statement__
+  
   <img src="./js/ifelse.png"/>
+
  * __If ... Else If Statement__
+  
   <img src="./js/ifelseif.png"/>
+
  * __Truthy and Falsy__
-  Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya. <img src="./js/tf.png"/>
+  
+  Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya. 
+  
+  <img src="./js/tf.png"/>
+
  * __Switch Case Conditional__
+  
   <img src="./js/switchcase.png"/>
+
  * __Ternary Operator__
+  
   merupakan short-syntax dari statement if … else.
+  
   <img src="./js/ternary.png"/>
 
 ### Looping
+
 Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
 
 * __Manual Loop__
@@ -563,6 +578,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
 * __For Loop__
   
   Instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan. FOR LOOP dapat digunakan jika kita tahu seberapa banyak nilai pasti untuk pengulangannya. For Loop Parameter:
+
   * __Inisialisasi__: Sebagai inisialisasi awal dari mana mulainya sebuah pengulangan. Kita memberikan nilai awal/default pada parameter ini
   * __Condition__: For loop akan terus berjalan selama kondisi ini terpenuhi. Selama kondisi bernilai TRUE.
   * __Post-expression__ (Increment/Decrement): Iterasi statement yang digunakan untuk mengupdate variabel yang menjadi kontrol pada pengulangan.
@@ -584,6 +600,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
 * __Nested Loop__
   
   Membuat looping di dalam looping.
+
   <img src="./js/nesteedloop.png"/>
  
 
