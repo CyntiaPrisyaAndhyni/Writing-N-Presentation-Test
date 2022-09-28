@@ -529,11 +529,11 @@ Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang di
 ### Operator
 
 * __Assignment Operator (=)__ : menyimpan sebuah nilai pada variabel.
-* __Mathematical Assignment Operator__ : menetapkan nilai ke variabel untuk operasi matematika. (=, +=, -=, *=, /=, **==, %=) 
+* __Mathematical Assignment Operator__ : menetapkan nilai ke variabel untuk operasi matematika. `(=, +=, -=, *=, /=, **==, %=)`
 * __Increment dan Decrement__ : menambah dan mengurangi sebesar 1 nilai.
-* __Arithmetic Operator__ : operator yang melibatkan operasi matematika. (+, -, *, /, %).
-* __Comparison Operator__ : operator yang membandingkan satu nilai dengan nilai lainnya. Hasil operasinya antara true or false. (<, >, <=, >=,  ===, !==)
-* __Logical Operator__ : digunakan untuk sebuah conditional pada pemrograman yang menghasilkan nilai boolean yaitu true or false. (&&, ||, !)
+* __Arithmetic Operator__ : operator yang melibatkan operasi matematika. `(+, -, *, /, %)`.
+* __Comparison Operator__ : operator yang membandingkan satu nilai dengan nilai lainnya. Hasil operasinya antara true or false. `(<, >, <=, >=,  ===, !==)`
+* __Logical Operator__ : digunakan untuk sebuah conditional pada pemrograman yang menghasilkan nilai boolean yaitu true or false. `(&&, ||, !)`
 
 ### Conditional 
 
@@ -564,7 +564,7 @@ Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah be
  * __Ternary Operator__
   
   merupakan short-syntax dari statement if … else.
-  
+
   <img src="./js/ternary.png"/>
 
 ### Looping
