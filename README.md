@@ -278,7 +278,7 @@ Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML, yaitu:
 
 Berikut ini tampilan file HTML menggunakan Live Server:
 
-<img src="htmlsederhana.png"/>
+<img src="HTMLsederhana.png"/>
 
 Setelah membuat file index.html tersebut, saya akan mengupload file html tersebut ke GitHub dengan menggunakan terminal bash yang terhubung di visual studio code.
 
