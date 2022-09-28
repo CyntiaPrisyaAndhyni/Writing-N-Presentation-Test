@@ -110,7 +110,7 @@ Berikut ini perbedaan penyusunan direktori windows vs unix-like:
 
 * __tail__
   
-  _tail_ adalah command untuk melihat beberapa line awal dari sebuah file text.
+  _tail_ adalah command untuk melihat beberapa line akhir dari sebuah file text.
   
   <img src="CLI/head%20dan%20tail.png"/>
 
