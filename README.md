@@ -557,6 +557,7 @@ Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah be
 Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
 
 * __Manual Loop__
+  
   <img src="./js/loopmanual.png"/>
 * __For Loop__
   Instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan. FOR LOOP dapat digunakan jika kita tahu seberapa banyak nilai pasti untuk pengulangannya. For Loop Parameter:
