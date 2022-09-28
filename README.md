@@ -539,6 +539,7 @@ Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang di
 
 Conditional merupakan statement percabangan yang menggambarkan suatu kondisi. 
 Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut. Yang dicek adalah apakah kondisi tersebut TRUE (benar). Jika TRUE maka code didalam kondisi tersebut dijalankan.
+
  * __If Statement__
   
   <img src="./js/ifstatement.png"/>
