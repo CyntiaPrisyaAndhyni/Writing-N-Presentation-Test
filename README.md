@@ -494,14 +494,21 @@ Algoritma adalah langkah-langkah atau proses yang dilakukan secara logis (masuk 
     * Konsisten
     * Dan mudah dibaca org lain
   * Contohnya:
-    `Menampilkan deret angka 1 - 10`
-    `deklarasi`
-     ` i ← 1`
-    `deskripsi`
-      `while i <= 10`
-       ` print i`
-       ` i = i + 1`
-      `end`
+     Menampilkan deret angka 1 - 10
+
+     deklarasi
+
+     i ← 1
+
+     deskripsi
+
+     while i <= 10
+
+     print i
+
+     i = i + 1
+
+     end`
 
 ---
 ## JAVASCRIPT
