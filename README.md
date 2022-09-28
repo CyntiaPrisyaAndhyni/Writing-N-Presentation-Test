@@ -78,6 +78,7 @@ Berikut ini perbedaan penyusunan direktori windows vs unix-like:
 * __touch__
   
   _touch_ adalah command untuk membuat sebuah file.
+
   <img src="CLI/touch bikin file percobaan.png"/>
 
 
@@ -542,31 +543,31 @@ Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah be
 
  * __If Statement__
   
-  <img src="./js/ifstatement.png"/>
+   <img src="./js/ifstatement.png"/>
 
  * __If ... Else Statement__
   
-  <img src="./js/ifelse.png"/>
+   <img src="./js/ifelse.png"/>
 
  * __If ... Else If Statement__
   
-  <img src="./js/ifelseif.png"/>
+   <img src="./js/ifelseif.png"/>
 
  * __Truthy and Falsy__
   
-  Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya. 
-  
-  <img src="./js/tf.png"/>
+    Truthy and falsy digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilainya. 
+
+    <img src="./js/tf.png"/>
 
  * __Switch Case Conditional__
   
-  <img src="./js/switchcase.png"/>
+   <img src="./js/switchcase.png"/>
 
  * __Ternary Operator__
   
-  merupakan short-syntax dari statement if … else.
+   merupakan short-syntax dari statement if … else.
 
-  <img src="./js/ternary.png"/>
+   <img src="./js/ternary.png"/>
 
 ### Looping
 
