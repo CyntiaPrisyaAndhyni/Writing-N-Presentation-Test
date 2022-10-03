@@ -1,4 +1,4 @@
-# Writing and Presentation Test (19 - 23 September 2022)
+# Writing and Presentation Test (19 - 30 September 2022)
 
 
 ---
@@ -680,7 +680,7 @@ Scope adalah konsep dalam flow data variabel. Menentukan suatu variabel bisa dia
 
 - __Function Helper__
   Penggunaan function yang sudah dibuat pada function lain.
-  
+
   <img src="./js/functionHelper.png"/>
     
 - __Arrow Function__
@@ -700,6 +700,14 @@ Scope adalah konsep dalam flow data variabel. Menentukan suatu variabel bisa dia
 
     <img src="./js/ssf2.png"/>
 
+
+### Error Message and Debugging
+
+Mampu membaca error message dan latihan debugging adalah salah satu senjata terbesar yang dimiliki oleh seorang developer. Semakin sering berlatih dan menemukan error, akan terlihat penurunan error karena di sepanjang perjalanan latihannya telah dihabiskan untuk menemukan kesalahan. Contoh error:
+
+<img src="./js/error.png"/>
+
+Dari gambar diatas, warna hijau adalah pesan error secara keseluruhan, warna biru muda untuk mencatat apakah kesalahan ditangani dengan benar, warna kecoklatan (kuning tua) adalah jenis kesalahan, dan warna merah adalah call stack.
 
 ### Data Type Built in Prototype and Method
 
