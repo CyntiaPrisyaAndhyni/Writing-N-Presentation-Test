@@ -610,8 +610,104 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
 * __Nested Loop__
   
   Membuat looping di dalam looping.
-
+ 
   <img src="./js/nesteedloop.png"/>
+
+### Scope
+
+Scope adalah konsep dalam flow data variabel. Menentukan suatu variabel bisa diakses pada scope tertentu atau tidak. Javascript memiliki 3 jenis scope:
+
+* __Blocks__
+  Blocks adalah code yang berada didalam curly braces {}. Conditional, function, dan  looping menggunakan blocks. Contoh:
+  
+      {
+      let x = 2;
+      }
+      // x can NOT be used here
+  
+
+* __Global Scope__
+  Global scope berarti variabel yang kita buat dapat diakses dimanapun dalam suatu file. Agar menjadi Global Scope, suatu variabel harus dideklarasikan diluar Blocks. Contoh:
+
+    `let x = 2;       // Global scope` 
+    atau
+    `const x = 2;       // Global scope`
+
+
+* __Local Scope__
+  Local scope berarti kita mendeklarasikan variabel didalam blocks seperti function, conditional, dan looping. Maka variabel hanya bisa diakses didalam blocks saja. Tidak bisa diakses diluar blocks. Contoh:
+
+      function myFunction() {
+      let carName = "Volvo";   // Function Scope
+      }
+
+
+### Function
+
+- __Definisi Function__
+  sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 fitur. Saat kita membutuhkan fitur tersebut nantinya, kita bisa kembali menggunakannya dengan cara memanggilnya. Contoh
+
+      <script>
+      function myFunction(p1, p2) {
+        return p1 * p2;
+      }
+      document.getElementById("demo").innerHTML = myFunction(4, 3);
+      </script>
+
+- __Function Syntax di Javascript:__
+
+      function name(parameter1, parameter2, parameter3) {
+        // code to be executed
+      }
+
+    Fungsi JavaScript didefinisikan dengan `function` kata kunci, diikuti dengan nama, diikuti dengan tanda kurung (), dan kode yang akan dieksekusi oleh fungsi, ditempatkan di dalam tanda kurung kurawal: {}. Nama fungsi dapat berisi huruf, angka, garis bawah, dan tanda dolar (aturan yang sama dengan variabel). 
+
+- __Parameter Function__
+    - Dengan parameter, function dapat menerima sebuah inputan data dan menggunakannya untuk melakukan task/tugas.
+    - Saat membuat function/fitur, kita harus tahu data-data yang dibutuhkan. Misalnya saat membuat function penambahan 2 buah nilai. Data yang dibutuhkan adalah 2 buah nilai tersebut.
+
+- __Argumen Function__
+    - Argumen adalah nilai yang digunakan saat memanggil function.
+    - Jumlah argumen harus sama dengan jumlah parameternya.
+    - Jadi jika di function penambahan ada 2 parameter nilai  saat membuat function. Saat memanggil function kita gunakan 2 buah nilai argumen.
+   
+      <img src="./js/argumen.png"/> 
+
+- __Default Parameter__  
+    Default paramaters digunakan untuk memberikan nilai awal/default pada parameter function. Default parameters bisa digunakan jika kita ingin menjaga function agar tidak error saat dipanggil tanpa argumen. Contoh:
+
+    <img src ="./js/defaultParameter.png"/>
+
+- __Function Helper__
+  Penggunaan function yang sudah dibuat pada function lain.
+  <img src="./js/functionHelper.png"/>
+    
+- __Arrow Function__
+  Arrow function adalah cara lain menuliskan function. Ini adalah fitur terbaru yang ada pada ES6 (Javascript Version)
+  <img src="./js/ArrowFunction.png"/>
+
+- __Short Syntax Function__
+  
+  - Parameter
+    <img src="./js/ssf1.png"/>
+  - Line Block
+    <img src="./js/ssf2.png"/>
+
+
+### Data Type Built in Prototype and Method
+
+* Data Type
+  
+* String
+  
+* Number
+  
+* Math
+  
+* Primitive & Non Primitive
+  
+
+### DOM
  
 
 
