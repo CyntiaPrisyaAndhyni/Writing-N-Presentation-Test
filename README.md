@@ -680,17 +680,24 @@ Scope adalah konsep dalam flow data variabel. Menentukan suatu variabel bisa dia
 
 - __Function Helper__
   Penggunaan function yang sudah dibuat pada function lain.
+  
   <img src="./js/functionHelper.png"/>
     
 - __Arrow Function__
   Arrow function adalah cara lain menuliskan function. Ini adalah fitur terbaru yang ada pada ES6 (Javascript Version)
+
   <img src="./js/ArrowFunction.png"/>
 
 - __Short Syntax Function__
   
   - Parameter
+  
     <img src="./js/ssf1.png"/>
+
+
   - Line Block
+  
+
     <img src="./js/ssf2.png"/>
 
 
