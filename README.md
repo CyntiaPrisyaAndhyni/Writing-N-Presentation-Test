@@ -857,13 +857,23 @@ Dari gambar diatas, warna hijau adalah pesan error secara keseluruhan, warna bir
 - __Mengubah Konten Element__
 
    - Element.textContent : dapat digunakan untuk mengubah teks di dalam sebuah element
+  
      <img src="./js/textContent.png"/>
+
+
    - Element.innerHTML : dapat digunakan untuk mengubah konten HTML di dalam sebuah element.
-    <img src="./js/innerhtml.png"/>
+  
+      <img src="./js/innerhtml.png"/>
+
+
    -  Perbedaan innerHTML dan textContent
-    <img src="./js/perbedaanInnerdanText.png"/>
+
+
+      <img src="./js/perbedaanInnerdanText.png"/>
 
 - __Membuat Element__
+  
+  
   <img src="./js/membuatelemenhtml.png"/>
 
 - __Interaksi User (Events)__
