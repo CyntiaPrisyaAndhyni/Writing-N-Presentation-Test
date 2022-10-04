@@ -711,19 +711,173 @@ Dari gambar diatas, warna hijau adalah pesan error secara keseluruhan, warna bir
 
 ### Data Type Built in Prototype and Method
 
-* Data Type
+* __Data Type__
   
-* String
+  Variabel JavaScript dapat menyimpan tipe data yang berbeda: angka, string, objek, dan lainnya:
+
+      let length = 16;                               // Number
+      let lastName = "Johnson";                      // String
+      let x = {firstName:"John", lastName:"Doe"};    // Object
+
+  Dalam pemrograman, tipe data merupakan konsep penting. Untuk dapat beroperasi pada variabel, penting untuk mengetahui sesuatu tentang tipenya. Tanpa tipe data, komputer tidak dapat menyelesaikan contoh masalah dibawah ini dengan aman. JavaScript mengevaluasi ekspresi dari kiri ke kanan. Urutan yang berbeda dapat menghasilkan hasil yang berbeda:
+
+  `let x = 16 + 4 + "Volvo";`
+    Hasil:
+  `20Volvo`
+
+  Pada contoh pertama, JavaScript memperlakukan 16 dan 4 sebagai angka, hingga mencapai "Volvo".
+
+  Sedangkan,
+
+  `let x = "Volvo" + 16 + 4;`
+    Hasil:
+  `Volvo164`
+
+   Dalam contoh kedua, karena operan pertama adalah string, semua operan diperlakukan sebagai string.
+
+
+* __String__
+  - Objek String digunakan untuk mewakili dan memanipulasi urutan karakter. String berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks. 
+  - Beberapa operasi yang paling sering digunakan pada string adalah memeriksa panjangnya, membangun dan menggabungkannya menggunakan operator string + dan +=, memeriksa keberadaan atau lokasi substring dengan indexOf() method, atau mengekstrak substring dengan substring() method.
+  - String ditulis dengan tanda kutip. Anda dapat menggunakan tanda kutip tunggal atau ganda:
   
-* Number
+        let carName1 = "Volvo XC60";
+        let carName2 = 'Volvo XC60';
+
+* __Number__
+  - Number adalah objek pembungkus primitif yang digunakan untuk mewakili dan memanipulasi angka seperti 37 atau -9,25. Konstruktor Number berisi konstanta dan metode untuk bekerja dengan angka. Nilai dari tipe lain dapat dikonversi ke angka menggunakan fungsi Number(). 
+  - Saat digunakan sebagai fungsi, Number(value) mengonversi string atau nilai lain ke tipe Number. Jika nilainya tidak dapat dikonversi, ia mengembalikan NaN.
+
+        Number("123"); // returns the number 123
+        Number("123") === 123; // true
+
+        Number("unicorn"); // NaN
+        Number(undefined); // NaN
+
+
   
 * Math
   
-* Primitive & Non Primitive
+  - Math adalah objek bawaan yang memiliki properti dan metode untuk konstanta dan fungsi matematika. Ini bukan objek fungsi.
+  - Matematika bekerja dengan tipe Number.
+  - Tidak seperti banyak objek global lainnya, Math bukanlah sebuah konstruktor. 
+  - Semua properti dan metode Math bersifat statis. Saat merujuk ke pi konstan sebagai Math.PI dan saat memanggil fungsi sinus sebagai Math.sin(x), di mana x adalah argumen metode. 
+  - Konstanta didefinisikan dengan presisi penuh bilangan real dalam JavaScript.
+  - Karena manusia cenderung berpikir dalam derajat, dan beberapa fungsi (seperti transformasi CSS) dapat menerima derajat, adalah ide yang baik untuk menjaga agar fungsi tetap berguna yang mengkonversi antara keduanya:
   
+        function degToRad(degrees) {
+        return degrees * (Math.PI / 180);
+        }
+
+        function radToDeg(rad) {
+          return rad / (Math.PI / 180);
+        }
+
+
+
+* Primitive & Non Primitive
+  Kedua kategori ini mewakili dua cara berbeda untuk menyimpan tipe data ke dalam memori. Primitif disimpan berdasarkan nilai sedangkan Non-Primitif (Objek) disimpan dengan referensi .
+  - Primitif
+    - Number
+    - String
+    - Boolean
+    - Undefined
+    - null
+
+  - Non-Primitif (disebut secara kolektif sebagai Objek)
+    - Objek
+    - Array
+    - Function
+  
+  contoh primitive:
+
+      let a = 5 
+      let b = a 
+      console.log(a) // 5 
+      console.log(b) // 5 
+      console.log(a === b) // true
+      a = 10 
+      console.log(a) // 10 
+      console.log(b) // 5 
+      console.log(a === b) // false
+
+  keterangan:
+  Kami menetapkan dua variabel yang berbeda: a dan b .
+  a ditetapkan sama dengan 5.
+  b ditetapkan sama dengan a .
+  Kemudian kita ubah nilai a menjadi sama dengan 10.
+  Namun entah bagaimana, nilai b masih 5!
+  Ini karena Primitif disimpan berdasarkan nilai.
+  Artinya, setiap kali kita memutuskan untuk mendeklarasikan variabel baru menggunakan tipe data primitif, kita membuat alamat baru di memori untuk nilai tersebut.
+
+  contoh non-primitive:
+
+      let a = [10] 
+      let b = a 
+      console.log(a === b) // true
+      a.push(10) 
+      console.log(a) // [10, 10] 
+      console.log(a === b) // true
+
+  keterangan:
+  Kami menetapkan dua variabel yang berbeda: a dan b .
+  ditetapkan sama dengan array yang memiliki nilai tunggal: 10.
+  b ditetapkan sama dengan a .
+  Membandingkan a dan b menghasilkan true .
+  Selanjutnya kami memodifikasi data di dalam file .
+  Namun, membandingkan kedua variabel sekali lagi kami masih mengembalikan true .
+  Alasan untuk ini adalah karena Non-Primitif (Objek) disimpan dengan referensi.
 
 ### DOM
+
+- Application programming interface (API) untuk memanipulasi dokumen HTML. DOM bukan bagian dari JavaScript, melainkan browser (Web API)
+
+- DOM (Document Object Model) adalah jembatan supaya bahasa pemrograman dapat berinteraksi dengan dokumen HTML.
+
+  <img src="./js/dom.png"/>
  
+- Dokumen HTML atau XML dapat direpresentasikan sebagai pohon simpul, seperti pohon keluarga tradisional.
+
+  <img  src="./js/treeDOM.png"/>
+
+- Setiap markup dapat direpresentasikan sebagai node dengan tipe node tertentu. Elemen adalah tipe spesifik dari node dengan tipe node Node.ELEMENT_NODE.
+  
+  <img  src="./js/elementvsnode.png"/>
+
+- __Mencari Element HTML__
+  
+  <img src="./js/getElement.png"/>
+
+  - getElementById() : select an element by id.
+  - getElementsByName() : select elements by name.
+  - getElementsByTagName()  : select elements by a tag name.
+  - getElementsByClassName() : select elements by one or more class names.
+  - querySelector() : select elements by CSS selectors.
+
+- __Mengubah Konten Element__
+
+   - Element.textContent : dapat digunakan untuk mengubah teks di dalam sebuah element
+     <img src="./js/textContent.png"/>
+   - Element.innerHTML : dapat digunakan untuk mengubah konten HTML di dalam sebuah element.
+    <img src="./js/innerhtml.png"/>
+   -  Perbedaan innerHTML dan textContent
+    <img src="./js/perbedaanInnerdanText.png"/>
+
+- __Membuat Element__
+  <img src="./js/membuatelemenhtml.png"/>
+
+- __Interaksi User (Events)__
+  User experience itu bersifat dua arah: 
+  selain menampilkan element HTML, halaman web juga harus bisa menangkap interaksi user.
+  - Element.addEventListener(“event”)
+    Dengan cara Element.addEventListener(“event”)
+    - Bisa dihilangkan
+    - Bisa ada beberapa event listener yang sama untuk 1 element
+    - Memiliki argument tambahan { options }
+
+
+
+
 
 
 
